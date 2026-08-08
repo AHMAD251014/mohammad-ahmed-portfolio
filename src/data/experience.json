@@ -1,0 +1,43 @@
+[
+  {
+    "id": "exp-dsu-degree",
+    "role": "BS Cyber Security Student (ID: CYS251014)",
+    "organization": "DHA Suffa University",
+    "period": "2025 - Present",
+    "type": "Education",
+    "location": "Karachi, Pakistan",
+    "description": "Enrolled in the Bachelor of Science in Cyber Security program. Engaging in rigorous coursework and lab work covering network defense, cryptography, database security, ethical hacking, and operating systems.",
+    "achievements": [
+      "Student ID: CYS251014",
+      "Focused on SIEM log analysis, network protocol dissection, and application vulnerability assessment",
+      "Participating in university security lab projects and CTF preparation groups"
+    ]
+  },
+  {
+    "id": "exp-security-projects",
+    "role": "Independent Security Developer & Researcher",
+    "organization": "Personal Portfolio Projects",
+    "period": "2024 - Present",
+    "type": "Lab & Hands-on",
+    "location": "Karachi, Pakistan",
+    "description": "Architected and built specialized open-source security applications including HackHero AI and SOC Shield AI.",
+    "achievements": [
+      "Built SOC Shield AI for parsing syslog streams and flagging SSH brute-force attacks",
+      "Developed HackHero AI to assist students with CTF challenge breakdowns and payload inspection",
+      "Created network port scanners and threat intelligence dashboards"
+    ]
+  },
+  {
+    "id": "exp-ctf-labs",
+    "role": "CTF Competitor & Security Lab Practitioner",
+    "organization": "TryHackMe / HackTheBox / University CTFs",
+    "period": "2024 - Present",
+    "type": "CTF & Practical",
+    "location": "Online / Karachi",
+    "description": "Regularly solving practice boxes and capture-the-flag challenges across web exploitation, cryptography, log forensics, and privilege escalation.",
+    "achievements": [
+      "Completed 45+ CTF rooms focusing on web vulnerabilities and packet analysis",
+      "Authored walkthrough notes and documentation for common CTF challenge patterns"
+    ]
+  }
+]

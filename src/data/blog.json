@@ -1,0 +1,35 @@
+[
+  {
+    "id": "soc-log-analysis-guide",
+    "slug": "demystifying-soc-log-analysis",
+    "title": "Demystifying SOC Log Analysis: Detecting SSH Brute Force Attacks",
+    "date": "2025-02-10",
+    "readTime": "5 min read",
+    "category": "SOC & SIEM",
+    "excerpt": "A practical guide on parsing auth.log streams, identifying IP brute-force patterns, and writing detection rules for SOC operations.",
+    "tags": ["SOC", "SIEM", "Linux", "Log Parsing", "Threat Detection"],
+    "content": "### Introduction\nSecurity Operations Center (SOC) analysts monitor authentication logs daily to detect unauthorized access attempts. SSH (Port 22) is one of the most frequently targeted entry points on Linux servers.\n\n### Identifying Brute-Force Symptoms in `auth.log`\nWhen an attacker runs automated tools like Hydra or Medusa, `var/log/auth.log` records multiple consecutive entries such as:\n\n```syslog\nFeb 10 14:22:01 server sshd[12041]: Failed password for invalid user admin from 192.168.1.105 port 44820 ssh2\nFeb 10 14:22:03 server sshd[12045]: Failed password for invalid user root from 192.168.1.105 port 44822 ssh2\n```\n\n### Detection Logic in SOC Shield AI\nIn my project **SOC Shield AI**, we parse syslog lines with the following regex logic:\n1. Extract timestamp, remote IP address, and attempted username.\n2. Count failed attempts per source IP within a rolling 60-second window.\n3. If failure threshold > 5, escalate alert status to **HIGH**.\n\n### Mitigation Strategies\n- **Disable Password Authentication**: Use SSH keypair authentication only.\n- **Implement Fail2Ban**: Automatically insert iptables block rules upon repeated failures.\n- **Change Default SSH Port**: Move from port 22 to a non-standard high port."
+  },
+  {
+    "id": "ctf-web-exploitation-intro",
+    "slug": "ctf-web-exploitation-owasp",
+    "title": "CTF Web Exploitation: Tackling OWASP Top 10 Injection Attacks",
+    "date": "2025-01-28",
+    "readTime": "7 min read",
+    "category": "Ethical Hacking",
+    "excerpt": "Key concepts and walkthrough techniques for identifying and exploiting SQL Injections and XSS in CTF challenges.",
+    "tags": ["CTF", "Web Security", "SQLi", "XSS", "OWASP"],
+    "content": "### Introduction to CTF Web Challenges\nCapture The Flag (CTF) web challenges test your understanding of how web applications process untrusted user input.\n\n### 1. SQL Injection (SQLi)\nSQL Injection occurs when user input is concatenated directly into a database query string without parameterization.\n\n**Classic Payload Test:**\n`' OR 1=1 --`\n\n**Remediation:**\nAlways use Prepared Statements and Parameterized Queries in languages like Python, PHP, or Node.js.\n\n### 2. Cross-Site Scripting (XSS)\nReflected and Stored XSS allow an attacker to execute arbitrary JavaScript in the victim's browser context.\n\n**Testing Payload:**\n`<script>alert(document.cookie)</script>`\n\n### Practical CTF Workflow in HackHero AI\nWhen analyzing a CTF web challenge:\n1. Inspect HTTP headers & cookies using Developer Tools / Burp Suite.\n2. Test input fields for special characters (`'`, `\"`, `<`, `>`).\n3. Check source code comments for hidden hints or endpoints."
+  },
+  {
+    "id": "wireshark-packet-guide",
+    "slug": "mastering-wireshark-network-analysis",
+    "title": "Mastering Wireshark: Dissecting Suspicious Network Traffic",
+    "date": "2025-01-15",
+    "readTime": "6 min read",
+    "category": "Network Security",
+    "excerpt": "Essential display filters and forensic techniques for analyzing PCAP files during security investigations.",
+    "tags": ["Wireshark", "Networking", "PCAP", "Forensics", "Protocols"],
+    "content": "### Why Wireshark Matters for Cyber Security Students\nNetwork traffic captures (PCAP files) provide raw truth during incident response. Knowing how to apply Wireshark display filters speeds up threat hunting.\n\n### Top Wireshark Display Filters\n- `http.request.method == \"POST\"`: Filters for HTTP POST transmissions (e.g. login forms, file uploads).\n- `ip.addr == 192.168.1.1`: Isolates traffic involving a specific host.\n- `dns.qry.name contains \"malicious\"`: Hunts for suspicious DNS queries.\n- `tcp.flags.syn == 1 and tcp.flags.ack == 0`: Identifies TCP SYN port scans.\n\n### Following Stream Conversations\nRight-click any TCP or HTTP packet -> **Follow -> TCP Stream**. This reconstructs the full bi-directional communication, revealing plain-text payloads or protocol handshakes."
+  }
+]

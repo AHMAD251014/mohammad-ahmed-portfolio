@@ -1,0 +1,25 @@
+{
+  "name": "Mohammad Ahmed",
+  "studentId": "CYS251014",
+  "degree": "BS Cyber Security",
+  "university": "DHA Suffa University",
+  "location": "Karachi, Pakistan",
+  "email": "ahmadmalikqqq380@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/mohammad-ahmed-cys251014",
+  "github": "https://github.com/AHMAD251014/",
+  "githubUsername": "AHMAD251014",
+  "tagline": "BS Cyber Security Student | Defensive & Offensive Security Enthusiast",
+  "bio": "I am a dedicated BS Cyber Security student at DHA Suffa University (Student ID: CYS251014) based in Karachi, Pakistan. My academic and practical focus encompasses threat detection, SOC analysis, ethical hacking, network protocols, vulnerability assessment, and security automation.",
+  "highlights": [
+    "Currently pursuing BS Cyber Security at DHA Suffa University (Karachi)",
+    "Creator of HackHero AI and SOC Shield AI security projects",
+    "Active participant in CTF challenges and security lab exercises",
+    "Focus on SIEM, log analysis, threat intelligence, and secure software development"
+  ],
+  "stats": {
+    "projectsCount": 6,
+    "certificationsCount": 4,
+    "ctfSolved": 45,
+    "skillsCount": 24
+  }
+}

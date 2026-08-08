@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tryhackme-pre-sec",
+    "title": "TryHackMe Pre-Security Path",
+    "issuer": "TryHackMe",
+    "issueDate": "2024",
+    "status": "Completed",
+    "skillsLearned": ["Cybersecurity Basics", "Networking Fundamentals", "Linux Fundamentals", "Web Applications"],
+    "badgeType": "Security Certificate"
+  },
+  {
+    "id": "cisco-intro-cyber",
+    "title": "Introduction to Cybersecurity",
+    "issuer": "Cisco Networking Academy",
+    "issueDate": "2024",
+    "status": "Completed",
+    "skillsLearned": ["Network Threats", "Data Privacy", "Security Policies", "Risk Mitigation"],
+    "badgeType": "Cisco Badge"
+  },
+  {
+    "id": "google-cyber-cert",
+    "title": "Google Cybersecurity Certificate Track",
+    "issuer": "Google / Coursera",
+    "issueDate": "2025",
+    "status": "Completed",
+    "skillsLearned": ["SIEM Tools", "Python for Security", "Linux Shell", "SQL for Security Analysis"],
+    "badgeType": "Professional Cert"
+  },
+  {
+    "id": "comptia-sec-prep",
+    "title": "CompTIA Security+ (SY0-701) Prep Track",
+    "issuer": "DHA Suffa University Lab",
+    "issueDate": "2025 - Present",
+    "status": "In Progress",
+    "skillsLearned": ["Threats, Attacks & Vulnerabilities", "Architecture & Design", "Implementation", "Operations & Response"],
+    "badgeType": "Target Certification"
+  }
+]

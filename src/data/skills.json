@@ -1,0 +1,130 @@
+[
+  {
+    "id": "soc-defense",
+    "category": "SOC & Defensive Security",
+    "iconName": "ShieldCheck",
+    "description": "Monitoring systems, analyzing security logs, and managing security incident responses.",
+    "skills": [
+      {
+        "name": "SIEM & Log Analysis",
+        "level": 88,
+        "badge": "Advanced",
+        "description": "Parsing auth.log, syslog, web server access logs for anomalous behavior and brute-force indicators."
+      },
+      {
+        "name": "Incident Response Basics",
+        "level": 82,
+        "badge": "Proficient",
+        "description": "Triage, containment steps, evidence gathering, and post-incident documentation."
+      },
+      {
+        "name": "Threat Intelligence",
+        "level": 80,
+        "badge": "Proficient",
+        "description": "Analyzing Indicators of Compromise (IoCs), CVE advisories, and MITRE ATT&CK framework mappings."
+      },
+      {
+        "name": "Vulnerability Assessment",
+        "level": 85,
+        "badge": "Proficient",
+        "description": "Identifying misconfigurations, outdated services, and unpatched software risks."
+      }
+    ]
+  },
+  {
+    "id": "networking",
+    "category": "Networking & Security Protocols",
+    "iconName": "Network",
+    "description": "Understanding network architectures, traffic flows, and communication security.",
+    "skills": [
+      {
+        "name": "TCP/IP & OSI Model",
+        "level": 90,
+        "badge": "Expert",
+        "description": "In-depth understanding of layer encapsulation, packet headers, and communication flows."
+      },
+      {
+        "name": "Wireshark Packet Analysis",
+        "level": 85,
+        "badge": "Proficient",
+        "description": "Capturing traffic, applying display filters, analyzing PCAP files for anomalies and plain-text credentials."
+      },
+      {
+        "name": "Network Scanning (Nmap)",
+        "level": 88,
+        "badge": "Advanced",
+        "description": "Host discovery, SYN/UDP port scanning, service version detection, and NSE script usage."
+      },
+      {
+        "name": "Firewalls & VPNs",
+        "level": 80,
+        "badge": "Proficient",
+        "description": "Understanding packet filtering rules, NAT, IPsec, OpenVPN, and perimeter defense."
+      }
+    ]
+  },
+  {
+    "id": "offensive-ctf",
+    "category": "Ethical Hacking & CTF",
+    "iconName": "Terminal",
+    "description": "Hands-on application of penetration testing principles and CTF challenge resolution.",
+    "skills": [
+      {
+        "name": "OWASP Top 10 Web Vulnerabilities",
+        "level": 84,
+        "badge": "Proficient",
+        "description": "SQL Injection, XSS, CSRF, Broken Access Control, and Insecure Direct Object References."
+      },
+      {
+        "name": "Burp Suite Essentials",
+        "level": 80,
+        "badge": "Intermediate",
+        "description": "HTTP traffic interception, repeater testing, intruder payloads, and request tampering."
+      },
+      {
+        "name": "Cryptography & Hashing",
+        "level": 82,
+        "badge": "Proficient",
+        "description": "Symmetric vs Asymmetric encryption, SHA-256, MD5, RSA concepts, and ciphertext decoding."
+      },
+      {
+        "name": "CTF Web & Forensics",
+        "level": 85,
+        "badge": "Proficient",
+        "description": "Solving CTF tasks across TryHackMe, HackTheBox labs, and university competitions."
+      }
+    ]
+  },
+  {
+    "id": "tools-os",
+    "category": "Tools & Environments",
+    "iconName": "Cpu",
+    "description": "Operating systems, command-line environments, and security toolkits.",
+    "skills": [
+      {
+        "name": "Linux / Kali Linux / Ubuntu",
+        "level": 92,
+        "badge": "Expert",
+        "description": "Command line proficiency, bash scripting, permission management, cron jobs, systemd."
+      },
+      {
+        "name": "Git & GitHub",
+        "level": 88,
+        "badge": "Advanced",
+        "description": "Version control, repository management, security audit checklists, open-source workflow."
+      },
+      {
+        "name": "Python for Automation",
+        "level": 86,
+        "badge": "Advanced",
+        "description": "Writing security scripts, socket networking, web scrapers, log parsers, and automation utilities."
+      },
+      {
+        "name": "VS Code & Dev Tools",
+        "level": 90,
+        "badge": "Expert",
+        "description": "Modern code editing, markdown documentation, linting, and extension workflows."
+      }
+    ]
+  }
+]

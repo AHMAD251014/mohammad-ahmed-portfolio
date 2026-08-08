@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hackhero-ai",
+    "title": "HackHero AI",
+    "featured": true,
+    "summary": "Intelligent Cybersecurity CTF Assistant & Vulnerability Analysis Toolkit.",
+    "description": "HackHero AI is an interactive cybersecurity helper and analysis framework designed to aid security students and researchers in breaking down Capture The Flag (CTF) challenges, analyzing payload structures, reverse engineering logic, and applying cybersecurity best practices.",
+    "category": "AI & Security",
+    "tags": ["Cyber Security", "CTF Solver", "Threat Analysis", "Python", "Security AI"],
+    "githubUrl": "https://github.com/AHMAD251014/HackHero-AI",
+    "demoUrl": "https://github.com/AHMAD251014/",
+    "highlights": [
+      "Assists in dissecting web exploitation, cryptography, and forensics challenges",
+      "Automates payload pattern recognition and hash classification",
+      "Provides step-by-step security remediation guides for common vulnerabilities"
+    ],
+    "keyFeatures": [
+      "CTF Challenge Category Resolver (Web, Crypto, Reverse, Forensics)",
+      "Automated Hash & Encoding Decoder (Base64, Hex, ROT13, SHA-256)",
+      "Vulnerability Remediation Engine with OWASP Top 10 mappings",
+      "Interactive command-line & clean web visualization mode"
+    ],
+    "architectureDetails": "Built using Python and TypeScript modular rules. Executes static analysis routines on challenge inputs, parses file headers, and presents structured security insights.",
+    "status": "Active Development"
+  },
+  {
+    "id": "soc-shield-ai",
+    "title": "SOC Shield AI",
+    "featured": true,
+    "summary": "Security Operations Center Log Analysis & Threat Detection Engine.",
+    "description": "SOC Shield AI is a lightweight Security Operations Center dashboard and log analysis utility that parses syslog, auth.log, and network event streams to identify brute-force attempts, unauthorized access, port scans, and suspicious IP behaviors.",
+    "category": "SOC & Defense",
+    "tags": ["SOC", "SIEM", "Log Parsing", "Threat Detection", "Incident Response"],
+    "githubUrl": "https://github.com/AHMAD251014/SOC-Shield-AI",
+    "demoUrl": "https://github.com/AHMAD251014/",
+    "highlights": [
+      "Real-time event parsing for authentication logs and firewall telemetry",
+      "Rule-based alerting for brute-force SSH attacks and port scanning",
+      "Interactive SOC metric visualization with severity scoring"
+    ],
+    "keyFeatures": [
+      "Rule Engine matching MITRE ATT&CK techniques (T1110, T1046)",
+      "Severity Classifier (Low, Medium, High, Critical)",
+      "Automated Threat Incident Summary Generator",
+      "Exportable security incident log reports"
+    ],
+    "architectureDetails": "Client-side high-throughput parsing pipeline processing multi-thousand line server log files with instant regex heuristic detection and interactive chart visualization.",
+    "status": "Completed"
+  },
+  {
+    "id": "network-vuln-analyzer",
+    "title": "NetPulse Vulnerability Analyzer",
+    "featured": false,
+    "summary": "Automated Network Port & Service Vulnerability Assessment Scanner.",
+    "description": "A python-powered network discovery tool that maps open ports, banner grabs active services, detects outdated protocol implementations, and correlates findings against common vulnerability databases.",
+    "category": "Network Security",
+    "tags": ["Networking", "Nmap", "Port Scanning", "Python", "Vulnerability Assessment"],
+    "githubUrl": "https://github.com/AHMAD251014/",
+    "demoUrl": "https://github.com/AHMAD251014/",
+    "highlights": [
+      "Service banner grabbing for HTTP, SSH, FTP, and SMTP services",
+      "Risk rating based on port exposure and protocol security profile",
+      "Generates clear HTML/JSON network audit reports"
+    ],
+    "keyFeatures": [
+      "Multi-threaded port range scanner",
+      "Banner grabbing & OS fingerprinting correlation",
+      "Customizable scan depth (Fast Scan vs. Full Deep Audit)",
+      "Vulnerability risk score matrix"
+    ],
+    "architectureDetails": "Developed using Python socket programming and multi-threading for asynchronous TCP SYN/Connect probes with structured JSON payload generation.",
+    "status": "Completed"
+  },
+  {
+    "id": "cyber-threat-intel-console",
+    "title": "Cyber Threat Intel Dashboard",
+    "featured": false,
+    "summary": "Centralized Threat Intelligence & Indicator of Compromise (IoC) Portal.",
+    "description": "A clean web interface for managing Indicators of Compromise (IoCs) such as suspicious IP addresses, malicious domain names, file hashes (MD5, SHA256), and CVE advisories.",
+    "category": "SOC & Defense",
+    "tags": ["Threat Intel", "IoC", "CVE", "React", "Cyber Defense"],
+    "githubUrl": "https://github.com/AHMAD251014/",
+    "demoUrl": "https://github.com/AHMAD251014/",
+    "highlights": [
+      "Unified repository for organizing and filtering threat IoCs",
+      "Searchable CVE database lookup with risk metrics",
+      "Exportable STIX/TAXII compatible structured reports"
+    ],
+    "keyFeatures": [
+      "IoC Search & Category Filtering (IP, Hash, Domain, URL)",
+      "Severity & Confidence level tagging",
+      "Threat Feed Aggregator view",
+      "Custom IoC entry and tagging system"
+    ],
+    "architectureDetails": "Fully client-side stateful threat intelligence engine built with React and local JSON persistent data structures.",
+    "status": "Completed"
+  },
+  {
+    "id": "crypto-shield-utility",
+    "title": "CryptoShield Encryption Suite",
+    "featured": false,
+    "summary": "Symmetric/Asymmetric Encryption & Hashing Laboratory Tool.",
+    "description": "An educational cryptographic studio demonstrating AES-256, RSA keypair generation, HMAC signature verification, and secure password hashing algorithms (SHA-256, bcrypt concepts).",
+    "category": "Tools & Utilities",
+    "tags": ["Cryptography", "AES-256", "RSA", "Hashing", "Security Lab"],
+    "githubUrl": "https://github.com/AHMAD251014/",
+    "demoUrl": "https://github.com/AHMAD251014/",
+    "highlights": [
+      "Interactive encryption and decryption sandbox",
+      "Visual hash generation with collision resistance checks",
+      "Public/Private keypair simulator and signature validator"
+    ],
+    "keyFeatures": [
+      "AES-256-GCM / CBC Encryption Sandbox",
+      "RSA 2048-bit Keypair Generator simulation",
+      "SHA-256, SHA-512, MD5 Hash Comparison",
+      "Base64 & Hex Encoder/Decoder suite"
+    ],
+    "architectureDetails": "Uses Web Crypto API standards for client-side cryptographic computations directly in the browser.",
+    "status": "Completed"
+  }
+]

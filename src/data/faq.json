@@ -1,0 +1,59 @@
+[
+  {
+    "id": "faq-who-is-mohammad",
+    "question": "Who is Mohammad Ahmed?",
+    "category": "General",
+    "answer": "Mohammad Ahmed is an aspiring cybersecurity professional and BS Cyber Security student at DHA Suffa University in Karachi, Pakistan (Student ID: CYS251014). He specializes in threat detection, SOC log analysis, network security, ethical hacking, and building security automation tools.",
+    "relatedLinks": [
+      { "label": "View GitHub Profile", "action": "https://github.com/AHMAD251014/" },
+      { "label": "Connect on LinkedIn", "action": "https://www.linkedin.com/in/mohammad-ahmed-cys251014" }
+    ]
+  },
+  {
+    "id": "faq-education",
+    "question": "What is Mohammad Ahmed's educational background?",
+    "category": "Education",
+    "answer": "Mohammad Ahmed is currently pursuing his Bachelor of Science in Cyber Security at DHA Suffa University (DSU) in Karachi, Pakistan under Student ID CYS251014. His academic curriculum focuses on information security principles, network protocols, cryptography, digital forensics, ethical hacking, and database security.",
+    "relatedLinks": [
+      { "label": "DHA Suffa University Details", "action": "#experience" }
+    ]
+  },
+  {
+    "id": "faq-skills",
+    "question": "What technical skills and tools does Mohammad Ahmed specialize in?",
+    "category": "Skills",
+    "answer": "His skill set includes SOC Log Analysis, SIEM fundamentals, Wireshark packet capture, Nmap port scanning, Linux (Kali Linux/Ubuntu) administration, Python security automation, OWASP Top 10 vulnerability assessment, Burp Suite, Cryptography, and Git/GitHub version control.",
+    "relatedLinks": [
+      { "label": "Explore Skills Matrix", "action": "#skills" }
+    ]
+  },
+  {
+    "id": "faq-projects",
+    "question": "What key cybersecurity projects has Mohammad Ahmed created?",
+    "category": "Projects",
+    "answer": "His signature projects include:\n1. HackHero AI – A CTF challenge assistant and payload analysis framework.\n2. SOC Shield AI – A Security Operations Center log parser and real-time threat detection engine.\n3. NetPulse Vulnerability Scanner – A multi-threaded network discovery and port assessment tool.\n4. Cyber Threat Intel Dashboard – An IoC tracking portal for IP, domain, and file hash threat feeds.",
+    "relatedLinks": [
+      { "label": "View Featured Projects", "action": "#projects" },
+      { "label": "GitHub Repositories", "action": "https://github.com/AHMAD251014/" }
+    ]
+  },
+  {
+    "id": "faq-career-goals",
+    "question": "What are Mohammad Ahmed's career goals and focus areas?",
+    "category": "Career Goals",
+    "answer": "Mohammad aims to excel as a SOC Analyst, Incident Responder, or Security Engineer. He is focused on mastering enterprise SIEM platforms, threat hunting, defensive security automation, cloud security engineering, and contributing to open-source cybersecurity frameworks.",
+    "relatedLinks": [
+      { "label": "Send Email Inquiry", "action": "#contact" }
+    ]
+  },
+  {
+    "id": "faq-contact",
+    "question": "How can I contact Mohammad Ahmed?",
+    "category": "Contact",
+    "answer": "You can reach out directly via email at ahmadmalikqqq380@gmail.com, connect on LinkedIn at linkedin.com/in/mohammad-ahmed-cys251014, or explore his repositories on GitHub at github.com/AHMAD251014.",
+    "relatedLinks": [
+      { "label": "Open Contact Form", "action": "#contact" },
+      { "label": "Direct Mailto", "action": "mailto:ahmadmalikqqq380@gmail.com" }
+    ]
+  }
+]
