@@ -43,8 +43,8 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenContentGuide }) => {
               <p className="text-xl sm:text-2xl font-medium text-cyan-400 flex flex-wrap items-center gap-2">
                 <span>{profile.degree}</span>
                 <span className="text-slate-600">•</span>
-                <span className="text-slate-300 font-mono text-lg bg-slate-900/80 px-2.5 py-0.5 rounded border border-slate-800">
-                  ID: {profile.studentId}
+                <span className="text-slate-300 font-mono text-base bg-slate-900/80 px-2.5 py-0.5 rounded border border-slate-800">
+                  {profile.university}
                 </span>
               </p>
             </div>
@@ -196,7 +196,6 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenContentGuide }) => {
                       {JSON.stringify(
                         {
                           name: profile.name,
-                          studentId: profile.studentId,
                           degree: profile.degree,
                           university: profile.university,
                           location: profile.location,

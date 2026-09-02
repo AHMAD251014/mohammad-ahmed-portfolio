@@ -15,10 +15,9 @@ export const ContentGuideModal: React.FC<ContentGuideModalProps> = ({ isOpen, on
     {
       path: 'src/data/profile.json',
       title: 'Profile & Bio Details',
-      description: 'Update name, student ID (CYS251014), university, email, social links, and bio text.',
+      description: 'Update name, university, email, social links, and bio text.',
       example: `{
   "name": "Mohammad Ahmed",
-  "studentId": "CYS251014",
   "degree": "BS Cyber Security",
   "university": "DHA Suffa University",
   "location": "Karachi, Pakistan",

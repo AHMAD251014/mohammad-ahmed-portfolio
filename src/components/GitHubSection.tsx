@@ -89,7 +89,7 @@ export const GitHubSection: React.FC = () => {
               </div>
               <p className="text-xs text-cyan-400 font-mono mt-0.5">github.com/{username}</p>
               <p className="text-xs text-slate-400 mt-1">
-                BS Cyber Security Student at DHA Suffa University (ID: CYS251014) building open-source security software.
+                BS Cyber Security Student at DHA Suffa University building open-source security software.
               </p>
             </div>
           </div>

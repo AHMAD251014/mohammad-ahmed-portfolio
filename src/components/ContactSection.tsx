@@ -109,10 +109,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ profile }) => {
 
                 {/* University Details */}
                 <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-1">
-                  <span className="text-[10px] font-mono text-slate-500 uppercase">Institution & ID</span>
+                  <span className="text-[10px] font-mono text-slate-500 uppercase">Institution</span>
                   <p className="text-xs text-slate-200 font-medium flex items-center gap-1.5">
                     <GraduationCap className="w-4 h-4 text-cyan-400 shrink-0" />
-                    <span>{profile.university} ({profile.studentId})</span>
+                    <span>{profile.university}</span>
                   </p>
                 </div>
 

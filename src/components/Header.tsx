@@ -52,7 +52,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenCommandPalette, onOpenCont
                 <span>MA_CYS</span>
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               </div>
-              <p className="text-[10px] text-slate-400 font-mono -mt-0.5">ID: CYS251014</p>
+              <p className="text-[10px] text-slate-400 font-mono -mt-0.5">Cyber Security</p>
             </div>
           </a>
 

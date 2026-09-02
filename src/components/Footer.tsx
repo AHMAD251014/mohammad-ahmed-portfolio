@@ -26,7 +26,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onOpenContentGuide }) =
               </div>
               <div>
                 <span className="font-mono font-bold text-sm text-white">Mohammad Ahmed</span>
-                <span className="text-[11px] font-mono text-cyan-400 block -mt-0.5">ID: {profile.studentId}</span>
+                <span className="text-[11px] font-mono text-cyan-400 block -mt-0.5">BS Cyber Security</span>
               </div>
             </div>
 
@@ -78,7 +78,7 @@ export const Footer: React.FC<FooterProps> = ({ profile, onOpenContentGuide }) =
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-500">
           <div>
-            © {new Date().getFullYear()} Mohammad Ahmed ({profile.studentId}). All rights reserved.
+            © {new Date().getFullYear()} Mohammad Ahmed. All rights reserved.
           </div>
 
           <div className="flex items-center gap-4">

@@ -1,14 +1,14 @@
 [
   {
     "id": "exp-dsu-degree",
-    "role": "BS Cyber Security Student (ID: CYS251014)",
+    "role": "BS Cyber Security Student",
     "organization": "DHA Suffa University",
     "period": "2025 - Present",
     "type": "Education",
     "location": "Karachi, Pakistan",
     "description": "Enrolled in the Bachelor of Science in Cyber Security program. Engaging in rigorous coursework and lab work covering network defense, cryptography, database security, ethical hacking, and operating systems.",
     "achievements": [
-      "Student ID: CYS251014",
+      "Rigorous hands-on curriculum covering network defense, cryptography, and systems security",
       "Focused on SIEM log analysis, network protocol dissection, and application vulnerability assessment",
       "Participating in university security lab projects and CTF preparation groups"
     ]

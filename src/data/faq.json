@@ -3,17 +3,17 @@
     "id": "faq-who-is-mohammad",
     "question": "Who is Mohammad Ahmed?",
     "category": "General",
-    "answer": "Mohammad Ahmed is an aspiring cybersecurity professional and BS Cyber Security student at DHA Suffa University in Karachi, Pakistan (Student ID: CYS251014). He specializes in threat detection, SOC log analysis, network security, ethical hacking, and building security automation tools.",
+    "answer": "Mohammad Ahmed is an aspiring cybersecurity professional and BS Cyber Security student at DHA Suffa University in Karachi, Pakistan. He specializes in threat detection, SOC log analysis, network security, ethical hacking, and building security automation tools.",
     "relatedLinks": [
       { "label": "View GitHub Profile", "action": "https://github.com/AHMAD251014/" },
-      { "label": "Connect on LinkedIn", "action": "https://www.linkedin.com/in/mohammad-ahmed-cys251014" }
+      { "label": "Connect on LinkedIn", "action": "https://www.linkedin.com/in/mohammad-ahmed" }
     ]
   },
   {
     "id": "faq-education",
     "question": "What is Mohammad Ahmed's educational background?",
     "category": "Education",
-    "answer": "Mohammad Ahmed is currently pursuing his Bachelor of Science in Cyber Security at DHA Suffa University (DSU) in Karachi, Pakistan under Student ID CYS251014. His academic curriculum focuses on information security principles, network protocols, cryptography, digital forensics, ethical hacking, and database security.",
+    "answer": "Mohammad Ahmed is currently pursuing his Bachelor of Science in Cyber Security at DHA Suffa University (DSU) in Karachi, Pakistan. His academic curriculum focuses on information security principles, network protocols, cryptography, digital forensics, ethical hacking, and database security.",
     "relatedLinks": [
       { "label": "DHA Suffa University Details", "action": "#experience" }
     ]
@@ -50,7 +50,7 @@
     "id": "faq-contact",
     "question": "How can I contact Mohammad Ahmed?",
     "category": "Contact",
-    "answer": "You can reach out directly via email at ahmadmalikqqq380@gmail.com, connect on LinkedIn at linkedin.com/in/mohammad-ahmed-cys251014, or explore his repositories on GitHub at github.com/AHMAD251014.",
+    "answer": "You can reach out directly via email at ahmadmalikqqq380@gmail.com, connect on LinkedIn at linkedin.com/in/mohammad-ahmed, or explore his repositories on GitHub at github.com/AHMAD251014.",
     "relatedLinks": [
       { "label": "Open Contact Form", "action": "#contact" },
       { "label": "Direct Mailto", "action": "mailto:ahmadmalikqqq380@gmail.com" }

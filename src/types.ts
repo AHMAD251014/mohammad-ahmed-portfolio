@@ -1,6 +1,6 @@
 export interface Profile {
   name: string;
-  studentId: string;
+  studentId?: string;
   degree: string;
   university: string;
   location: string;

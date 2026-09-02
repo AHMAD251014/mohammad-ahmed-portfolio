@@ -23,7 +23,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ profile, experiences
               About Mohammad Ahmed
             </h2>
             <p className="text-slate-400 mt-2 text-sm sm:text-base max-w-2xl">
-              BS Cyber Security Student at DHA Suffa University (Student ID: CYS251014), Karachi, Pakistan.
+              BS Cyber Security Student at DHA Suffa University, Karachi, Pakistan.
             </p>
           </div>
 
@@ -65,7 +65,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ profile, experiences
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-white">DHA Suffa University</h3>
-                  <p className="text-xs text-cyan-400 font-mono">Student ID: {profile.studentId}</p>
+                  <p className="text-xs text-cyan-400 font-mono">BS Cyber Security • Karachi</p>
                 </div>
               </div>
 
